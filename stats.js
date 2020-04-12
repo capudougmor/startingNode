@@ -17,5 +17,5 @@ setInterval(() => {
     console.log("==========PC STATS ==========")
     console.table(stats)
     
-    log({stats}\n)
+    log({stats})
 }, 1000)

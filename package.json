@@ -1,0 +1,25 @@
+{
+  "name": "startingNode",
+  "version": "1.0.0",
+  "description": "node js",
+  "main": "logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "api": "nodemon ./api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capudougmor/startingNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/capudougmor/startingNode/issues"
+  },
+  "homepage": "https://github.com/capudougmor/startingNode#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
